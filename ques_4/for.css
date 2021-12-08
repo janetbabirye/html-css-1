@@ -1,0 +1,20 @@
+form{
+    display: table;
+    color: chartreuse;
+    width: 90%;
+    max-width: 400px;
+    max-height: 700px;
+    padding: 10px;
+    outline: 1cm solid beige;
+    background: transparent;
+    font-size: 15px;
+    text-align: left;
+}
+.group{
+    background-color: rgb(6, 6, 48);
+    margin-bottom: 25px;
+    position: relative;
+}
+.last{
+    text-align: right;
+}

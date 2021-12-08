@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM USING HTML & CSS</title>
+    <link href="for.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <form>
+        <legend>SignUp</legend>
+        <div class="text_area">
+        <div class="group">
+            <label for="name">First Name</label>
+            <input type="text" id="firstname" required>
+        </div>
+        <div class="group">
+            <label for="name">Second Name</label>
+            <input type="text" id="secondname" required>
+        </div>
+        <div class="group">
+            <label for="datetime">Date Of Birth</label>
+            <input type="datetime" id="datetime" required>
+        </div>
+        <div class="group">
+            <legend>Gender</legend>
+            <input type="checkbox" id="Male" name= "Male" checked>
+            <label for="Male">Male</label>
+            <input type="checkbox" id="Female" name= "Female" checked>
+            <label for="Female">Female</label>
+        </div>
+        <select name="Country" id="Country">
+            <option value="Tanzania">Tanzania</option>
+            <option value="Uganda">Uganda</option>
+            <option value="SouthAfrica">SouthAfrica</option>
+            <option value="Canada">Canada</option>
+            <option value="Switzerland">Switzerland</option>
+            <option value="Paris">Paris</option>
+            <option value="America">America</option>
+        </select>
+        <div class="group">
+            <label for="email">Enter E-mail</label>
+            <input type="email" id="email" required>
+        </div>
+        <div class="group">
+            <label for="email">Enter E-mail</label>
+            <input type="number" id="number" required>
+        </div>
+        <div class="group">
+            <label for="Password">Password</label>
+            <input type="password" id="Password" required>
+        </div>
+        <div class="group">
+            <label for="Confirm Password">Confirm Password</label>
+            <input type="password" id="Password" required>
+        </div></div>
+        <div class="last">
+        <button type="submit">Submit</i></button>
+        <button type="cancel">Cancel</i></button>
+        </div>
+    </form>
+</body>
+</html>
